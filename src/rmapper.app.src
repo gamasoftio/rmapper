@@ -1,0 +1,13 @@
+{application, rmapper,
+ [{description, "A library to encode and decode Erlang's Record."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [rmapper]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
